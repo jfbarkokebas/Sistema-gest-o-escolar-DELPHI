@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/23 19:19:02.000.484,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/05/04 11:28:08.000.005,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/05/04 11:28:56.000.779,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\principal\unitPrincipal.pas=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2024/05/04 11:28:56.000.779,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\principal\unitPrincipal.dfm=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2024/05/04 11:29:11.000.038,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\GestaoEscola.dproj=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>2024/05/04 11:31:21.000.427,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/04 11:31:40.000.052,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/04 11:32:28.000.451,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\responsaveis\unitResponsaveis.pas=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/04 11:32:28.000.451,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\responsaveis\unitResponsaveis.dfm=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.dfm</Transaction>
+    <Transaction>2024/05/04 11:37:16.000.513,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/04 11:39:03.000.313,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\dm\unitDM.dfm=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.dfm</Transaction>
+    <Transaction>2024/05/04 11:39:03.000.313,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\dm\unitDM.pas=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/06 14:41:47.000.090,=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+    <Transaction>2024/05/06 14:43:56.000.051,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\alunos\unAlunos.dfm=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.dfm</Transaction>
+    <Transaction>2024/05/06 14:43:56.000.051,C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\alunos\unAlunos.pas=C:\Users\jfbar\OneDrive\Documentos\Embarcadero\Studio\Projects\EscolaProject\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

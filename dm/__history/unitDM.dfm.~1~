@@ -1,0 +1,14 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 284
+  Width = 508
+  object FDConnection1: TFDConnection
+    Left = 48
+    Top = 64
+  end
+  object FDTable1: TFDTable
+    Connection = FDConnection1
+    Left = 176
+    Top = 64
+  end
+end

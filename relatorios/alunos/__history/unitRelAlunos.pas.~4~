@@ -1,0 +1,31 @@
+unit unitRelAlunos;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, RLReport;
+
+type
+  TfrmRelAlunos = class(TForm)
+    relAlunos: TRLReport;
+    RLBand1: TRLBand;
+    RLBand2: TRLBand;
+    RLBand3: TRLBand;
+    RLLabel1: TRLLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmRelAlunos: TfrmRelAlunos;
+
+implementation
+
+{$R *.dfm}
+
+uses unitDM;
+
+end.

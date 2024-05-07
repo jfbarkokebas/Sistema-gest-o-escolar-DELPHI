@@ -1,0 +1,362 @@
+object frmCadAlunos: TfrmCadAlunos
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Cadastro de Alunos'
+  ClientHeight = 562
+  ClientWidth = 855
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 290
+    Top = 8
+    Width = 229
+    Height = 29
+    Caption = 'Cadastro de Alunos'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -24
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Top = 144
+    Width = 15
+    Height = 19
+    Caption = 'Id'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 104
+    Top = 144
+    Width = 115
+    Height = 19
+    Caption = 'Nome Completo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label8: TLabel
+    Left = 376
+    Top = 144
+    Width = 93
+    Height = 19
+    Caption = 'Buscar Aluno'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 196
+    Width = 65
+    Height = 19
+    Caption = 'Endere'#231'o'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 256
+    Width = 42
+    Height = 19
+    Caption = 'Bairro'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label6: TLabel
+    Left = 192
+    Top = 256
+    Width = 48
+    Height = 19
+    Caption = 'Cidade'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 24
+    Top = 308
+    Width = 19
+    Height = 19
+    Caption = 'UF'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 70
+    Top = 308
+    Width = 28
+    Height = 19
+    Caption = 'CEP'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 192
+    Top = 308
+    Width = 49
+    Height = 19
+    Caption = 'Celular'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Top = 364
+    Width = 75
+    Height = 19
+    Caption = 'Operadora'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label12: TLabel
+    Left = 128
+    Top = 364
+    Width = 39
+    Height = 19
+    Caption = 'Email'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label13: TLabel
+    Left = 24
+    Top = 416
+    Width = 141
+    Height = 18
+    Caption = 'Autorizado a sair com'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label14: TLabel
+    Left = 24
+    Top = 467
+    Width = 155
+    Height = 18
+    Caption = 'Respons'#225'vel pelo Carn'#234
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBEdit1: TDBEdit
+    Left = 24
+    Top = 169
+    Width = 65
+    Height = 21
+    DataField = 'id'
+    TabOrder = 1
+  end
+  object txtNome: TDBEdit
+    Left = 95
+    Top = 169
+    Width = 241
+    Height = 21
+    DataField = 'nome'
+    TabOrder = 2
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 214
+    Top = 64
+    Width = 400
+    Height = 41
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbInsert, nbDelete, nbPost, nbCancel]
+    TabOrder = 0
+  end
+  object DBGrid1: TDBGrid
+    Left = 376
+    Top = 209
+    Width = 459
+    Height = 316
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgConfirmDelete, dgCancelOnExit, dgTitleClick, dgTitleHotTrack]
+    ParentFont = False
+    TabOrder = 14
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -12
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = [fsBold]
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'Nome'
+        Title.Caption = 'Nome do Aluno'
+        Width = 195
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'celular'
+        Width = 140
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'autorizadoSairCom'
+        Visible = True
+      end>
+  end
+  object DBEdit2: TDBEdit
+    Left = 23
+    Top = 221
+    Width = 321
+    Height = 21
+    DataField = 'endereco'
+    TabOrder = 3
+  end
+  object DBEdit3: TDBEdit
+    Left = 24
+    Top = 281
+    Width = 153
+    Height = 21
+    DataField = 'bairo'
+    TabOrder = 4
+  end
+  object DBEdit4: TDBEdit
+    Left = 183
+    Top = 281
+    Width = 153
+    Height = 21
+    DataField = 'cidade'
+    TabOrder = 5
+  end
+  object DBEdit5: TDBEdit
+    Left = 22
+    Top = 333
+    Width = 42
+    Height = 21
+    DataField = ' estado'
+    TabOrder = 6
+  end
+  object DBEdit6: TDBEdit
+    Left = 70
+    Top = 333
+    Width = 101
+    Height = 21
+    DataField = 'cep'
+    TabOrder = 7
+  end
+  object DBEdit7: TDBEdit
+    Left = 192
+    Top = 333
+    Width = 153
+    Height = 21
+    DataField = 'celular'
+    TabOrder = 8
+  end
+  object DBEdit8: TDBEdit
+    Left = 23
+    Top = 389
+    Width = 75
+    Height = 21
+    DataField = 'operadora'
+    TabOrder = 9
+  end
+  object DBEdit9: TDBEdit
+    Left = 128
+    Top = 389
+    Width = 217
+    Height = 21
+    DataField = 'email'
+    TabOrder = 10
+  end
+  object DBEdit10: TDBEdit
+    Left = 24
+    Top = 440
+    Width = 161
+    Height = 21
+    DataField = 'autorizadoSairCom'
+    TabOrder = 11
+  end
+  object DBRadioGroup1: TDBRadioGroup
+    Left = 202
+    Top = 416
+    Width = 143
+    Height = 49
+    Caption = 'Ensino Religioso'
+    Columns = 2
+    DataField = 'ensinoReligioso'
+    Items.Strings = (
+      'Sim'
+      'N'#227'o')
+    TabOrder = 12
+    Values.Strings = (
+      '1'
+      '0')
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 24
+    Top = 491
+    Width = 161
+    Height = 21
+    DataField = 'responsavelCarne'
+    KeyField = 'id'
+    ListField = 'nome'
+    ListSource = DM.dsResponsaveis
+    TabOrder = 13
+  end
+end
